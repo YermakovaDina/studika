@@ -1,0 +1,31 @@
+{
+  "name": "studika",
+  "version": "1.0.0",
+  "description": "создание шапки сайта для университета",
+  "main": "index.js",
+  "homepage": "https://YermakovaDina.github.io/studika/",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /studika/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YermakovaDina/studika.git"
+  },
+  "keywords": [],
+  "author": "Yermakova Dina <yermakovadina@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YermakovaDina.github.io/studika/issues"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.54.8"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0",
+    "prettier": "^2.7.1"
+  }
+}
